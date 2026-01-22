@@ -20,6 +20,11 @@ namespace COMP003A.LectureActivity2
             Console.WriteLine("\t Using Interpolation");
             Console.WriteLine($"Sum = {sum}");
             Console.WriteLine($"Average = {average}");
+            Console.WriteLine("\tOutput Comparisons");
+            bool aGreaterThanB = a > b;
+            bool aEqualsB = a == b;
+            Console.WriteLine($"a>b = {aGreaterThanB}");
+            Console.WriteLine ($"a=b = {aEqualsB}");
         }
     }
 }
